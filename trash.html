@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Papierkorb</title>
+    <link rel="icon" type="image/x-icon" href="img/file-solid.svg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveStyle.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body onload="renderTrash()">
+    <nav class="header">
+        <div>
+            <img onclick="showIcons()" id="responsive-open-image" class="header-image" src="img/responsive-menu.svg"
+                alt="responsive menu">
+            <img onclick="closeIcons()" id="responsive-close-image" class="header-image d-none"
+                src="img/responsive-menu.svg" alt="responsive menu">
+        </div>
+        <p class="header-text">Papierkorb</p>
+    </nav>
+
+    <div class="header-and-note">
+        <div class="header-icons">
+            <div id="icons-blue" class="background-blue">
+                <a href="index.html"><img src="img/file-solid.svg" alt="file"></a>
+                <a href="index.html"><p id="notizen-button" class="text-button d-none">Notizen</p></a>
+            </div>
+            <div id="archiv-white" class="background-white">
+                <a href="archiv.html"><img src="img/box-archive-solid.svg" alt="archive"></a>
+                <a href="archiv.html"><p id="archiv-button" class="text-button d-none">Archiv</p></a>
+            </div>
+            <div id="trash-white" class="background-white">
+                <a href="trash.html"><img id="padding-trash" src="img/trash-can-solid.svg" alt="trash"></a>
+                <a href="trash.html"><p id="trash-button" class="text-button d-none">Papierkorb</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="pint-note">
+
+    </div>
+</body>
+
+</html>

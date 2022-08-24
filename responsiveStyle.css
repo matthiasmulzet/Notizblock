@@ -1,0 +1,268 @@
+@media (max-width: 1000px) {
+    .textarea-field-big-pint-note {
+        width: 210px;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 185px;
+        font-size: 18px;
+    }
+
+    .textarea-field-write-note-pint-note {
+        width: 190px;
+    }
+}
+
+@media (max-width: 750px) {
+    .input-field-note {
+        width: 350px;
+    }
+
+    .textarea-field-big {
+        width: 350px;
+    }
+
+    .textarea-field-title {
+        width: 305px;
+    }
+
+    .textarea-field-write-note {
+        width: 305px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .header-icons {
+        width: 200px;
+    }
+
+    .background-onclick-blue {
+        width: 140px;
+    }
+
+    .background-onclick-white {
+        width: 140px;
+    }
+
+    .textarea-field-write-note {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .header-image {
+        margin-left: 20px;
+        height: 35px;
+    }
+
+    .header-text {
+        font-size: 35px;
+    }
+
+    .header-icons {
+        width: 168px;
+    }
+
+    .header-icons img {
+        height: 17px;
+    }
+
+    .text-button {
+        font-size: 13px;
+    }
+
+    .background-blue {
+        margin-left: 11px;
+    }
+
+    .background-onclick-blue {
+        padding-left: 28px;
+        width: 110px;
+    }
+
+    .background-white {
+        margin-left: 11px;
+    }
+
+    .background-onclick-white {
+        padding-left: 26px;
+        width: 110px;
+    }
+
+    .input-field-note {
+        width: 250px;
+    }
+
+    .textarea-field-big {
+        width: 250px;
+    }
+
+    .textarea-field-title {
+        width: 205px;
+    }
+
+    .textarea-field-write-note {
+        width: 205px;
+    }
+}
+
+@media (max-width: 540px) {
+    .textarea-field-title {
+        font-size: 15px;
+    }
+
+    .textarea-field-write-note {
+        font-size: 12px;
+    }
+
+    #pint-note {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textarea-field-big-pint-note {
+        width: 85%;
+    }
+
+    .textarea-field-title-pint-note {
+        text-align: start;
+        width: 350px;
+        padding-right: 5px;
+    }
+
+    .textarea-field-write-note-pint-note {
+        width: 95%;
+    }
+}
+
+@media (max-width: 470px) {
+    .header-icons {
+        width: 75px;
+    }
+
+    .icons {
+        height: 17px;
+    }
+
+    .background-blue {
+        margin-top: 10px;
+    }
+
+    .background-onclick-blue {
+        margin-top: 10px;
+        width: 88vw;
+        z-index: 999;
+    }
+
+    .background-onclick-white {
+        width: 88vw;
+        z-index: 999;
+    }
+
+    #trash-white {
+        padding-bottom: 15px;
+    }
+
+    .textarea-field-big {
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .textarea-field-write-note {
+        height: 85px;
+        padding-bottom: 0;
+    }
+
+    .textarea-field-write-note-pint-note {
+        padding-right: 0;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 320px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-image {
+        margin-left: 10px;
+    }
+
+    .background-blue {
+        margin-left: 1px;
+    }
+
+    .background-white {
+        margin-left: 1px;
+    }
+
+    .background-onclick-blue {
+        padding-left: 20px;
+    }
+
+    .background-onclick-white {
+        padding-left: 18px;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-icons {
+        width: 50px;
+    }
+
+    #note {
+        margin-right: 45px;
+        margin-left: 5px;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 265px;
+    }
+}
+
+@media (max-width: 370px) {
+    #note {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    #note {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 235px;
+    }
+
+    .input-field-note {
+        width: 230px;
+    }
+}
+
+@media (max-width: 330px) {
+    .input-field-note {
+        width: 210px;
+    }
+
+    .textarea-field-big {
+        width: 230px;
+    }
+
+    .textarea-field-title {
+        width: 185px;
+    }
+
+    .textarea-field-title-pint-note {
+        width: 220px;
+    }
+}
